@@ -6,13 +6,13 @@ namespace Ex7_ListaFixacao
     {
         static void Main(string[] args)
         {
-            decimal[] numeros = new decimal[15];
+            float[] numeros = new float[15];
 
             for (var i = 0; i < 15; i++) {
                 
                 Console.WriteLine();
-                Console.WriteLine($"Digite o {i+1}° número (inteiro):\n ");
-                numeros[i] = decimal.Parse(Console.ReadLine());
+                Console.WriteLine($"Digite o {i+1}° número (para número decimal use vírgula ao invés de ponto):\n ");
+                numeros[i] = float.Parse(Console.ReadLine());
             
             }
             
